@@ -45,7 +45,7 @@ body {
 
 
 /* Card */
-.card {
+.card{
     width: 100%;
     max-width: 70rem;
     padding: 1rem;
@@ -129,17 +129,25 @@ body {
 .about-card img{
     width: 100%; 
     max-width: 100%; 
-    height: auto; 
-    border-radius: 50px;
+    height: 80%; 
+    border-radius: 30px;
     object-fit: cover; 
 }
 
 .about-me{
     padding: 1rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 35px;
+}
+
+
+.about-me span{
+    color: #0066ff;
 }
 
 .about-me h1{
-    color: rgb(83, 83, 218);
+    color:  rgba(0, 0, 0, 0.753);
   
 }
 
@@ -149,6 +157,8 @@ body {
     padding-top: 1rem;
 
 }
+
+
 
 
 @media screen and (min-width: 768px) {
@@ -181,7 +191,7 @@ body {
     justify-content: center;
     gap: 2rem; 
 }
-
+/* 
 .project-head{
     padding-left: 1.5rem;
     padding-bottom: 2rem;
@@ -194,9 +204,10 @@ body {
     grid-template-rows: auto;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     height: 20rem;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-}
+    /* background: #0066ff; */
+   
+ 
+/* } */
 
 @media (min-width: 768px) {
     .card1, .card2, .card3, .card4 {
@@ -207,4 +218,74 @@ body {
         flex-direction: row; 
         justify-content: space-around; 
     }
+} */
+
+.card1 img {
+    width: 100%; 
+    max-width: 100%; 
+    max-height: fit-content;
+    border-radius: 5px;
+    object-fit:cover; 
 }
+
+.card1 h5{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+   
+
+
+}
+
+
+
+
+
+.card1 {
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.card1-content {
+    padding: 20px;
+    
+   
+}
+
+.card1-content h3 {
+    margin-top: 0;
+    color: blueviolet;
+}
+
+.card1-content p {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
