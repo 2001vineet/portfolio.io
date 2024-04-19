@@ -32,6 +32,14 @@ body {
     gap: 3rem;
 }
 
+#btn{
+    display: flex;
+    background: none;
+    color: #8a2be2;
+    border: 1px solid rgb(77, 74, 74);
+    
+}
+
 /* Container */
 .container {
     margin-top: 8rem;
